@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main() {
+	//int catage, dogage; ;
+	//cin >> catage >> dogage;
+
+	//if (catage > 0 && catage <= 100) { cout << "OK catage" << endl; }
+	//else cout << "unrealistic age" << endl;
+
+	//if (dogage > 0 && dogage <= 30) { cout << "OK dogage" << endl; }
+	//else cout << "unrealistic age" << endl;
+
+	//cout << "Exit";
+
+
+
+//int Alex, age,heigh;
+//int age,heigh;
+//cin >> age >> heigh;
+//
+//if (age > 0 && age <= 100) { cout << "OK age" << endl; }
+//else cout << "unrealistic age" << endl;
+//
+//if (heigh > 0 && heigh <= 210) { cout << "OK heigh" << endl; }
+//else cout << "unrealistic age" << endl;
+//
+//cout << "Exit";
+//}
+
+
+
+//
+//	string p = "1111", pin;
+//	cin >> pin;
+//	cout << "____" << endl;
+//	if (p == pin) {
+//		cout << "OK" << endl << "age" << endl;
+//	}
+//	else cout << " wrong";
+//}
+
+
+
+	int age = 15
+
+		cout << "____" << endl << "login :";
+	srting log = "Alex", Login;
+	cin >> Login;
+	cout"____";
+	cout << "Pass:", pin;
+	cin >> pin;
+	cout
