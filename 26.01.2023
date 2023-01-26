@@ -1,0 +1,94 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//	int a = 1;
+	//	do {
+	//
+	//		int b = 1;
+	//		do {
+	//			cout << "a ir:" << a << endl;
+	//			b=b+1;
+	//		} while (b <= 5);		a = a + 1;
+	//	} while (a <= 3);
+	//
+	//}
+
+
+//int x = 10;
+
+//switch (x)
+
+//{
+
+//case 10:
+
+//cout << "x is 10"; break;
+
+//case 30:
+
+//cout << "x is 20"; break;
+
+//default:
+
+//cout << "x is not 10,30"; break;
+
+//return 0;
+
+
+
+
+	//int x, y;
+	//cin >> x >> y;
+	//if (x > y) { cout << "x-maksimalais|y-minimalais"; }
+	//else cout << "y-maksimalais|x-minimalais";
+
+	//if (x < 0) { cout << "x-negativs"; }
+	//else cout << "x-pozitivs";
+
+	//if (y < 0) { cout << "y-negativs"; }
+	//else cout << "y-pozitivs";
+
+	//if (x % 2 == 0) { cout << "x-para"; }
+	//else cout << "x-nepara";
+
+	//if (x % 2 == 0) { cout << "y-para"; }
+	//else cout << "y-nepara";
+
+
+	//int a, b;
+
+//cin >> a >> b;
+//if (a == 1) { cout << "Pirmdiena" << endl; }
+//if (a == 2) { cout << "Otrdiena" << endl; }
+//if (a == 3) { cout << "Treshdiena" << endl; }
+//if (a == 4) { cout << "Ceturdiena" << endl; }
+//if (a == 5) { cout << "Piektdiena" << endl; }
+//if (a == 6) { cout << "Sestdiena" << endl; }
+//if (a == 7) { cout << "Svetdiena" << endl; }
+//if (b == 1) { cout << "Janvaris" << endl; }
+//if (b == 2) { cout << "Februaris" << endl; }
+//if (b == 3) { cout << "Marts" << endl; }
+//if (b == 4) { cout << "Aprilis" << endl; }
+//if (b == 5) { cout << "Maijs" << endl; }
+//if (b == 6) { cout << "Junijs" << endl; }
+//if (b == 7) { cout << "Julijs" << endl; }
+//if (b == 8) { cout << "Augusts" << endl; }
+//if (b == 9) { cout << "Septembris" << endl; }
+//if (b == 10) { cout << "Oktobris" << endl; }
+//if (b == 11) { cout << "Novembris" << endl; }
+//if (b == 12) { cout << "Decembris" << endl; }
+
+
+
+	int x;
+	cin >> x;
+
+	if (x >= 90 && x <101) { cout << " Grade A "; }
+	if (x >= 80 && x<90) { cout << " Grade B "; }
+	if (x >= 70 && x<80) { cout << " Grade C "; }
+	if (x >= 60 && x<70) { cout << " Grade D "; }
+	if (x >= 40 && x<60) { cout << " Grade E "; }
+	if (x <= 39 && x >= 0) { cout << " Grade F "; }
+	if(x<0 || x>100) cout << " unreal procenttage ";
+}
