@@ -1,0 +1,136 @@
+#include <iostream>
+#include<vector>
+//using namespace std;
+//int main()
+//{
+	//vector<int> num{ 1, 2, 3, 1, 2 };
+	//int i = 0;
+	//do {
+	//	if (num[i] == 1) cout << "found 1 ";
+	//	i++;
+	//} while (i < num.size());
+	//i = 0;
+	//do {
+	//	if (num[i] == 4) cout << "found 4 ";
+	//	i++;
+	//} while (i < num.size());
+	// i = 0;
+	//}
+
+
+
+
+
+
+//using namespace std;
+//int main()
+//{
+//	vector<string>country { "USA", "UK", "CH", "IN", "CA", "AU" };
+//	vector<string>code { "+1", "+44", "+86", "+91", "+1", "+61" };
+//	cout << "Ievadi kodu" << endl;
+//	string c1;
+//	cin >> c1;
+//
+//	int i = 0;
+//	do {
+//		if (code[i] == c1) cout << country[i] << " ";
+//		i++;
+//	} while (i < code.size());
+//}
+
+
+
+
+
+
+//using namespace std;
+//int main()
+//{
+//	vector<int>atzime { 3, 8, 7, 4 };
+//	vector<string>vards { "Anna", "Antons", "Vlads", "Artemijs" };
+//	cout << "Ievadi atizmi" << endl;
+//	int c1;
+//	cin >> c1;
+//	int i = 0;
+//	do {
+//		if (atzime[i] == c1) cout << vards[i] << " ";
+//		i++;
+//	} while (i < atzime.size());
+//}
+
+
+
+
+
+
+//using namespace std;
+//int main()
+//{
+//vector<int>num{ 2, 3, 5, 7 };
+//cout << "Ievadi skaitli" << endl;
+//int c1;
+//cin >> c1;
+//int i = 0;
+//do {
+//cout << num[i] * num[i] << endl;
+// i++;
+//} while (i < num.size());
+//}
+
+
+
+
+
+
+//using namespace std;
+//
+//int main()
+//{
+//	vector<string>datums{ "13.novembris", "19.novembris" };
+//	vector<string>svetki{ "par Latvijas neatkaribu krituso karaviru pieminas diena", "Latvijas Republikas proklamesanas diena" };
+//	cout << "Vai jus velaties redzet valsts svetkus?";
+//	string answer;
+//	bool atr = false;
+//	cin >> answer;
+//	int i = 0;
+//	do {
+//		if (answer == "yes")
+//		{
+//
+//			cout << datums[i] << endl << svetki[i] << endl;
+//			atr = true;
+//		}
+//			i++;
+//		} while (i < datums.size());
+//		if (atr == false) cout << "Goodbye" << endl;
+//	}
+
+
+//using namespace std;
+//int main()
+//{
+//vector<int>laiks{ -19, -10, -5, -2, 0, +3, +5, +7, +10, +15 };
+//int i = 0, k=0;
+//do {
+//if (laiks[i] > 0) { k++; }
+//i++;
+//} while (i < laiks.size());
+//cout << k;
+//}
+
+
+
+
+using namespace std;
+
+int main()
+
+{
+
+	vector<string>country{ "Spain", "Estonia", "Germany", "France" };
+
+	int i = 0;
+
+	country.pop_back();
+
+}
